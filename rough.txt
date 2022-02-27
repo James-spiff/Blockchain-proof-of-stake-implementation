@@ -1,0 +1,6 @@
+> let Wallet = require('./wallet');
+> let secret = 'I am the first leader!'
+> let leader = new Wallet(secret);
+> leader.getPublicKey();
+
+this inherits from the wallet class to generate a public key using the above text as a secret

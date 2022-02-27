@@ -1,0 +1,5 @@
+npm run dev
+set HTTP_PORT=3002 && set P2P_PORT=5002 && set PEERS=ws://localhost:5001 && npm run dev
+set HTTP_PORT=3003 && set P2P_PORT=5003 && set PEERS=ws://localhost:5002,ws://localhost:5001 && npm run dev
+
+These should be run in 3 seperate terminals preferrably command prompt or bash (The last 2 commands won't work with powershell)

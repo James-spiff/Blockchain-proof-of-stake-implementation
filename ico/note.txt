@@ -1,0 +1,2 @@
+use the command below to run the app or else it will conflict with other ports
+set P2P_PORT=5005 && npm run ico
